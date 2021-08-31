@@ -1,0 +1,29 @@
+.principal-intrumentos {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  letter-spacing: 1;
+}
+
+.container-instrumentos p:first-child {
+  color: #041e50;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1;
+  font-size: 23px;
+  line-height: 100%;
+  letter-spacing: 10;
+  text-align: center;
+  margin-top: 90px;
+}
+.container-instrumentos p:nth-child(2) {
+  color: #222222;
+  position: absolute;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  width: 601;
+  margin-left: 377px;
+  margin-top: 22px;
+}

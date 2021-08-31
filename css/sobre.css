@@ -1,0 +1,19 @@
+.sobre {
+  width: auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+}
+.sobre h1 {
+  font-weight: 700;
+  color: #041e50;
+
+  text-transform: uppercase;
+  line-height: 3.1;
+  font-size: 26px;
+}
+.sobre p {
+  height: 200px;
+  margin: 33px 189px 106px 290px;
+  margin-bottom: 120px;
+}

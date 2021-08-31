@@ -1,0 +1,28 @@
+.instrumentos {
+  width: auto;
+  height: auto;
+  margin-left: 140px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 14px;
+  line-height: 100%;
+}
+.intrumentos-lista {
+  margin-right: 140px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.intrumentos-lista li p {
+  font-family: "Lato";
+  color: #000;
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+}

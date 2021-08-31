@@ -1,0 +1,9 @@
+.marcas-imagens-lista {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 131px;
+  margin-left: 139px;
+  margin-right: 139px;
+}

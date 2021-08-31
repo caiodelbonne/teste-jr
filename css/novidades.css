@@ -1,0 +1,105 @@
+.novidades {
+  height: auto;
+  display: flex;
+  color: #ffffff;
+  align-items: stretch;
+  justify-content: space-between;
+  font-family: "Lato";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.novidade-esquerdo {
+  background: url("../img/lado-esquerdo.png");
+  width: 642px;
+  width: 50%;
+  height: 386px;
+}
+.novidade-esquerdo p:first-child {
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.4em;
+  width: 116px;
+  margin-top: 116px;
+  margin-left: 40%;
+}
+
+.novidade-esquerdo p:first-child::after {
+  content: "";
+  width: 18px;
+  height: 1px;
+  background: white;
+  display: block;
+  text-align: center;
+  padding: 1px;
+  margin-left: 50px;
+  margin-top: 11px;
+}
+
+.novidade-esquerdo p:nth-child(2) {
+  margin-top: 50px;
+  font-size: 41px;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+.novidade-esquerdo p:nth-child(3) {
+  letter-spacing: 10;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+/*  l a d o  - - - direito */
+.novidade-direito {
+  background: url("../img/lado-direito.png");
+  width: 642px;
+  width: 50%;
+  height: 386px;
+}
+
+.novidade-direito p:first-child {
+  font-family: "Lato";
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.4em;
+  width: 116px;
+  margin-top: 116px;
+  margin-left: 40%;
+}
+.novidade-direito p:first-child::after {
+  content: "";
+  width: 18px;
+  height: 1px;
+  background: white;
+  display: block;
+  text-align: center;
+  padding: 1px;
+  margin-left: 50px;
+  margin-top: 11px;
+}
+.novidade-direito p:nth-child(2) {
+  margin-top: 50px;
+  font-size: 41px;
+  font-weight: 700;
+  font-weight: bold;
+}
+.novidade-direito p:nth-child(3) {
+  letter-spacing: 10;
+  font-size: 40px;
+  line-height: 40px;
+}
+.btn-novidades {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: transparent;
+  margin-top: 30px;
+  color: #ffffff;
+
+  width: 154px;
+  height: 52px;
+  cursor: pointer;
+}
+.btn-novidades:hover {
+  background: #ffffff;
+  color: #000;
+}
